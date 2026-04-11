@@ -1,0 +1,87 @@
+:root {
+  --bg: #0f172a;
+  --card: #1f2937;
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+  --ok: #22c55e;
+  --off: #ef4444;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.container {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.card {
+  background: var(--card);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.big {
+  font-size: 2rem;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: red;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.dot.connected {
+  background: var(--ok);
+}
+
+button {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.on {
+  background: var(--ok);
+  color: white;
+}
+
+.off {
+  background: var(--off);
+  color: white;
+}
+
+/* NEW: Layout for 2 Nodes   */
+
+.rooms {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.room {
+  background: var(--card);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+.room h2 {
+  margin-top: 0;
+  color: var(--muted);
+}
