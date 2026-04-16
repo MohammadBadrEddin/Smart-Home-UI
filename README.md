@@ -7,13 +7,10 @@ Displays temperature and controls LEDs for **two nodes (Living Room & Bedroom)**
 
 ## Screenshots
 
-### Web UI (Desktop)
-
-![Desktop UI](images/web-ui-pc.jpg)
-
-### Web UI (Mobile)
-
-![Mobile UI](images/web-ui-mobile.jpg)
+<p align="center">
+  <img src="images/web-ui-pc.jpg" width="600"/>
+  <img src="images/web-ui-mobile.jpg" width="200"/>
+</p>
 
 ---
 
@@ -109,7 +106,7 @@ protocol websockets
 
 ---
 
-## Network Configuration
+## Network Setup
 
 * The UI is accessed via: http://UI-IP:3000
 * MQTT must always connect to the Broker IP: ws://BROKER-IP:9001
