@@ -9,7 +9,6 @@ Displays temperature and controls LEDs for **two nodes (Living Room & Bedroom)**
 
 <p align="center">
   <img src="images/web-ui-pc.jpg" width="600"/>
-  <img src="images/web-ui-mobile.jpg" width="200"/>
 </p>
 
 ---
