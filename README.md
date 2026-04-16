@@ -99,5 +99,5 @@ protocol websockets
 
 ## Network Configuration
 
-* The UI is accessed via: http://<UI-IP>:3000
-* MQTT must always connect to the Broker IP: ws://<BROKER-IP>:9001
+* The UI is accessed via: http://UI-IP:3000
+* MQTT must always connect to the Broker IP: ws://BROKER-IP:9001
